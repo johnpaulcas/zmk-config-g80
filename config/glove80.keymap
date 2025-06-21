@@ -140,12 +140,12 @@
 
         number {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                         &trans          &trans           &trans            &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans         &trans          &trans           &trans            &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp BACKSPACE  &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9      &kp COLON  &kp PERCENT
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp K          &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6      &kp MINUS  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp J          &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3      &kp SLASH  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &kp N0                 &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GREATER_THAN  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                             &trans          &trans           &trans            &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                      &trans         &trans          &trans           &trans            &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                      &kp BACKSPACE  &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9      &kp COLON  &kp PERCENT
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                      &kp K          &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6      &kp MINUS  &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp J          &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3      &kp SLASH  &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &kp PERIOD            &kp EQUAL              &kp N0                        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp GREATER_THAN  &trans     &trans
             >;
         };
 

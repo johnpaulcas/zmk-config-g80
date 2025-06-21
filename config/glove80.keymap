@@ -112,6 +112,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        opar {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <41 42>;
+        };
+
+        cpar {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <42 43>;
+        };
+
+        obracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <59 60>;
+        };
+
+        cbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <60 61>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

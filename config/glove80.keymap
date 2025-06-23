@@ -125,14 +125,14 @@
             key-positions = <37 38>;
         };
 
-        left_brace {
+        l_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <48 49>;
+            key-positions = <29 30>;
         };
 
-        right_brace {
+        r_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <49 50>;
+            key-positions = <30 31>;
         };
     };
 

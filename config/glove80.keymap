@@ -29,7 +29,7 @@
             label = "LAYER_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mo 4>, <&to 4>;
+            bindings = <&mo 5>, <&to 5>;
         };
 
         magic: magic_hold_tap {
@@ -131,7 +131,7 @@
         };
 
         right_brace {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <49 50>;
         };
     };
@@ -149,12 +149,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1      &kp F2          &kp F3         &kp F4         &kp F5                                                                                             &kp F6           &kp F7         &kp F8         &kp F9          &kp F10
-&kp EQUAL   &kp N1          &kp N2         &kp N3         &kp N4          &kp N5                                                                     &kp N6  &kp N7           &kp N8         &kp N9         &kp N0          &kp MINUS
-&kp TAB     &kp Q           &kp W          &kp F          &kp P           &kp B                                                                      &kp J   &kp L            &kp U          &kp Y          &kp SEMICOLON   &kp BSLH
-&caps_word  &hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LGUI S  &hrm_l LSHFT T  &kp G                                                                      &kp M   &hrm_r RSHIFT N  &hrm_r RCMD E  &hrm_r RALT I  &hrm_r RCTRL O  &kp COLON
-&kp GRAVE   &kp Z           &kp X          &kp C          &kp D           &kp V   &key_repeat  &kp RSHFT  &layer_td  &kp LGUI  &hyper   &kp TAB      &kp K   &kp H            &kp COMMA      &kp DOT        &kp FSLH        &kp PG_UP
-&magic 3 0  &kp HOME        &kp END        &kp LEFT       &kp RIGHT               &kp BSPC     &lt 2 ESC  &kp LALT   &kp RALT  &kp RET  &lt 1 SPACE          &kp DOWN_ARROW   &kp UP_ARROW   &kp LBKT       &kp RBKT        &kp PG_DN
+&kp F1      &kp F2          &kp F3         &kp F4         &kp F5                                                                                              &kp F6           &kp F7         &kp F8         &kp F9          &kp F10
+&kp EQUAL   &kp N1          &kp N2         &kp N3         &kp N4          &kp N5                                                                      &kp N6  &kp N7           &kp N8         &kp N9         &kp N0          &kp MINUS
+&kp TAB     &kp Q           &kp W          &kp F          &kp P           &kp B                                                                       &kp J   &kp L            &kp U          &kp Y          &kp SEMICOLON   &kp BSLH
+&caps_word  &hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LGUI S  &hrm_l LSHFT T  &kp G                                                                       &kp M   &hrm_r RSHIFT N  &hrm_r RCMD E  &hrm_r RALT I  &hrm_r RCTRL O  &kp COLON
+&kp GRAVE   &kp Z           &kp X          &kp C          &kp D           &kp V   &key_repeat   &kp RSHFT  &layer_td  &kp LGUI  &hyper   &kp TAB      &kp K   &kp H            &kp COMMA      &kp DOT        &kp FSLH        &kp PG_UP
+&magic 4 0  &kp HOME        &kp END        &kp LEFT       &kp RIGHT               &lt 3 ESCAPE  &lt 2 ESC  &kp LALT   &kp RALT  &kp RET  &lt 1 SPACE          &kp DOWN_ARROW   &kp UP_ARROW   &kp LBKT       &kp RBKT        &kp PG_DN
             >;
         };
 
@@ -177,6 +177,17 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                                                      &kp K          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp J          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp ASTERISK
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &kp PERIOD            &kp EQUAL              &kp N0                        &trans        &trans        &trans        &trans     &trans
+            >;
+        };
+
+        nav {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans            &trans    &trans  &trans     &trans  &trans
             >;
         };
 

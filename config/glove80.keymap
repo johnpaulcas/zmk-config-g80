@@ -161,7 +161,7 @@
         symbol {
             bindings = <
 &trans      &trans            &trans                &trans                 &trans                                                                                                             &trans         &trans                &trans                 &trans      &trans
-&trans      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans                                                                       &trans             &trans         &trans                &trans                 &trans      &trans
+&trans      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp COLON                                                                    &trans             &trans         &trans                &trans                 &trans      &trans
 &kp PERIOD  &kp EXCLAMATION   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON      &kp QUESTION                                                                 &kp GRAVE          &sk RSHFT      &sk RIGHT_GUI         &sk RIGHT_ALT          &sk RCTRL   &trans
 &kp HASH    &kp CARET         &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR         &kp ASTERISK                                                                 &kp DOUBLE_QUOTES  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QMARK   &trans
 &kp TILDE   &kp LESS_THAN     &kp PIPE              &kp MINUS              &kp GREATER_THAN   &kp SLASH     &kp BACKSLASH  &kp DOT    &trans       &trans  &trans  &trans  &kp SINGLE_QUOTE   &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ESCAPE  &trans

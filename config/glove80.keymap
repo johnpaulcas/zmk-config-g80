@@ -154,7 +154,7 @@
 &kp TAB     &kp Q           &kp W          &kp F          &kp P           &kp B                                                                                                  &kp J   &kp L            &kp U          &kp Y          &kp SEMICOLON   &kp BSLH
 &caps_word  &hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LGUI S  &hrm_l LSHFT T  &kp G                                                                                                  &kp M   &hrm_r RSHIFT N  &hrm_r RCMD E  &hrm_r RALT I  &hrm_r RCTRL O  &kp COLON
 &kp GRAVE   &kp Z           &kp X          &kp C          &kp D           &kp V   &key_repeat      &kp RSHFT  &layer_td  &kp LGUI  &kp RC(SPACE)  &mt RC(RS(RA(RIGHT_GUI))) TAB  &kp K   &kp H            &kp COMMA      &kp DOT        &kp FSLH        &kp PG_UP
-&magic 4 0  &kp HOME        &kp END        &kp LEFT       &kp RIGHT               &lt 3 BACKSPACE  &lt 2 ESC  &kp LALT   &kp RALT  &kp RET        &lt 1 SPACE                            &kp DOWN_ARROW   &kp UP_ARROW   &kp LBKT       &kp RBKT        &kp PG_DN
+&magic 4 0  &kp HOME        &kp END        &kp LEFT       &kp RIGHT               &lt 3 BACKSPACE  &lt 2 ESC  &kp COMMA  &kp RALT  &kp RET        &lt 1 SPACE                            &kp DOWN_ARROW   &kp UP_ARROW   &kp LBKT       &kp RBKT        &kp PG_DN
             >;
         };
 

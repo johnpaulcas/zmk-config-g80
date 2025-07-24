@@ -182,12 +182,12 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans             &trans                                                                         &trans     &trans    &trans         &trans  &trans
-&trans  &trans  &trans  &trans             &trans       &trans                                                  &trans    &trans     &trans    &trans         &trans  &trans
-&trans  &trans  &trans  &trans             &trans       &trans                                                  &trans    &trans     &trans    &trans         &trans  &trans
-&trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp PERCENT  &trans                                                  &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT      &trans  &trans
-&trans  &trans  &trans  &trans             &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &kp RC(SPACE)  &trans  &trans
-&trans  &trans  &trans  &kp UNDERSCORE     &kp EQUAL            &trans  &trans  &trans  &trans  &trans  &trans            &kp MINUS  &kp PLUS  &trans         &trans  &trans
+&trans  &trans  &trans  &trans             &trans                                                                                   &trans     &trans    &trans         &trans  &trans
+&trans  &trans  &trans  &trans             &trans       &trans                                                            &trans    &trans     &trans    &trans         &trans  &trans
+&trans  &trans  &trans  &trans             &trans       &trans                                                            &trans    &trans     &trans    &trans         &trans  &trans
+&trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp PERCENT  &kp LEFT_BRACKET                                                  &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT      &trans  &trans
+&trans  &trans  &trans  &trans             &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &kp RC(SPACE)  &trans  &trans
+&trans  &trans  &trans  &kp UNDERSCORE     &kp EQUAL                      &trans  &trans  &trans  &trans  &trans  &trans            &kp MINUS  &kp PLUS  &trans         &trans  &trans
             >;
         };
 

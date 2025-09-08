@@ -155,7 +155,7 @@
 &kp TAB     &kp Q           &kp W          &kp F          &kp P           &kp B                                                                                                     &kp J   &kp L            &kp U          &kp Y          &kp SEMICOLON   &kp BSLH
 &caps_word  &hrm_l LCTRL A  &hrm_l LALT R  &hrm_l LGUI S  &hrm_l LSHFT T  &kp G                                                                                                     &kp M   &hrm_r RSHIFT N  &hrm_r RCMD E  &hrm_r RALT I  &hrm_r RCTRL O  &kp COLON
 &kp GRAVE   &kp Z           &kp X          &kp C          &kp D           &kp V   &key_repeat      &kp RSHFT  &layer_td  &kp LGUI     &kp RC(SPACE)  &mt RC(RS(RA(RIGHT_GUI))) TAB  &kp K   &kp H            &kp COMMA      &kp DOT        &kp FSLH        &kp PG_UP
-&magic 3 0  &kp HOME        &kp END        &kp LEFT       &kp RIGHT               &lt 2 BACKSPACE  &lt 6 ESC  &kp COMMA  &key_repeat  &kp RET        &lt 1 SPACE                            &kp DOWN_ARROW   &kp UP_ARROW   &kp LBKT       &kp RBKT        &kp PG_DN
+&magic 3 0  &kp HOME        &kp END        &kp LEFT       &kp RIGHT               &lt 2 BACKSPACE  &lt 7 ESC  &kp COMMA  &key_repeat  &kp RET        &lt 1 SPACE                            &kp DOWN_ARROW   &kp UP_ARROW   &kp LBKT       &kp RBKT        &kp PG_DN
             >;
         };
 
@@ -211,6 +211,17 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                               &kp K          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp ASTERISK  &kp PLUS  &kp J          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp ASTERISK
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &kp EQUAL    &kp PERIOD    &kp N0                   &trans        &trans        &trans        &trans     &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

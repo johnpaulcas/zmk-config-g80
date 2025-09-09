@@ -13,7 +13,6 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20
-
 #define HYPER LC(LS(LG(LALT)))
 
 // layers
@@ -230,12 +229,12 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                      &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                             &trans           &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                             &none            &none           &none           &none            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                             &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp RG(K_COPY)  &kp RG(K_PASTE)  &none           &none           &none            &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK                        &msc SCRL_DOWN  &msc SCRL_UP  &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                      &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                             &trans           &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                             &none            &none           &none         &none            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                             &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp RG(K_COPY)  &kp RG(K_PASTE)  &none           &none         &none            &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &mkp RCLK  &mkp LCLK                        &msc SCRL_DOWN  &msc SCRL_UP  &trans           &trans  &trans
             >;
         };
     };

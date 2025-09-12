@@ -75,6 +75,8 @@
             label = "REPEAT_OR_LAYER";
             #binding-cells = <0>;
             bindings = <&key_repeat>, <&tog 2>;
+
+            tapping-term-ms = <150>;
         };
     };
 
@@ -176,7 +178,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5                                                             &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0  &trans
 &trans  &trans        &trans        &kp DOUBLE_QUOTES  &kp PERCENT   &kp LEFT_BRACKET                                                         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT      &kp RCTRL     &trans
 &trans  &trans        &trans        &trans             &trans        &trans            &trans  &trans  &trans  &trans  &trans   &trans        &trans        &trans        &trans        &kp RC(SPACE)  &trans        &trans
-&trans  &trans        &trans        &kp UNDERSCORE     &kp EQUAL                       &trans  &trans  &trans  &trans  &kp DOT  &kp NUMBER_0                &kp MINUS     &kp PLUS      &trans         &trans        &trans
+&trans  &trans        &trans        &kp UNDERSCORE     &kp EQUAL                       &trans  &tog 0  &trans  &trans  &kp DOT  &kp NUMBER_0                &kp MINUS     &kp PLUS      &trans         &trans        &trans
             >;
         };
 

@@ -76,7 +76,7 @@
             #binding-cells = <0>;
             bindings = <&key_repeat>, <&tog 2>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <220>;
         };
     };
 
